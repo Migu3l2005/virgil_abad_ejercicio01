@@ -1,27 +1,47 @@
+.seccion_inicio{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    height: 100vh;
+    
+
+}
 .cabecera{
     display: flex;
     justify-content: space-between;
     height: 150px;
 }
 
-img{
-    width: 450px;
-    height: 150px;
-    padding-left: 100px;
-    padding-top: 35px;
+.logo{
+display: flex;
 }
 
 .menu{
+
     display: flex;
     height: 135px;
-    width: 400px;
+    width: 500px;
     justify-content: center;
     align-items: flex-end;
-
+    
 }
+
 
 li{
     display: inline;
     width: 200px;
     padding: 5px;
 }
+inicio{
+display: flex;
+flex-direction: column;
+
+}
+
+h1,h2{
+    font-size: 30px;
+}
+botones{
+    display: flex;
+}
+
